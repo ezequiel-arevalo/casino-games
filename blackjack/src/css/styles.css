@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* Mobile: vertical */
+@media (max-width: 480px) {
+  body {
+    background-image: url('../img/wallpaper-mobile.webp'); /* fondo vertical */
+  }
+}
+
+/* Desktop: horizontal */
+@media (min-width: 500px) {
+  body {
+    background-image: url('../img/wallpaper-desktop.webp'); /* fondo horizontal */
+  }
+}
